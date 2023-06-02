@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper</title>
+
+    <link rel="stylesheet" href="style.css" />
+
     <script src="script.js" defer></script>
-    <title>Background Change</title>
+
 </head>
 
 <body>
-
+    <nav>
+        <div class="nav-content">
+            <h4>Choose the color flipper type: </h4>
+            <!-- Essa tag mudará o conteúdo de acordo com o tipo que o usuário desejar. Sendo simple ou hex. -->
+            <button id="type" class="btn">Simple</button>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>background color : <span class="color">White</span></h2>
+            <button class="btn" id="btn">click me</button>
+        </div>
+    </main>
 </body>
 
 </html>

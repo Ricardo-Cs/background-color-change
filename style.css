@@ -1,0 +1,70 @@
+/* Import css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    font-size: 1rem;
+    font-family: inherit;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #222;
+    transition: transform 0.2;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Nav e conteúdo da nav */
+h4 {
+    display: inline-block;
+}
+
+nav {
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+nav .nav-content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.125rem;
+}
+
+/* Main */
+main {
+    min-height: 91vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+}
+
+.container h2, .color {
+    text-transform: capitalize;
+}
+
