@@ -40,7 +40,7 @@ btn.addEventListener("click", () => {
         const luminosity = calculateLuminosity(backgroundColor);
         
         // Define a cor do botão com base na luminosidade. (Com cores mais escuras o botão para mudar o background ficava muito pouco visível)
-        if (luminosity < 15) {
+        if (luminosity < 25) {
             btn.style.color = "white"
             btn.style.borderColor = "white";
         } else {
